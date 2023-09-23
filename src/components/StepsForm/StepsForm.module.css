@@ -1,0 +1,24 @@
+.formArea {
+
+    display: flex;
+    flex-flow: column wrap;
+
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 50px;
+
+}
+
+.btnArea {
+
+    min-width: 500px;
+
+    display: flex;
+
+    justify-content: space-around;
+}
+
+.forms {
+    padding-bottom: 50px;
+}

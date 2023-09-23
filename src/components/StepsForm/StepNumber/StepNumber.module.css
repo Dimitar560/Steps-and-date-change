@@ -1,0 +1,27 @@
+.numContainer{
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+
+    min-width: 500px;
+
+    padding-bottom: 50px;
+
+}
+
+.stepNum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: lightgray;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.active {
+    background-color: purple;
+    color: white;
+}
